@@ -563,7 +563,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &239663061
 RectTransform:
   m_ObjectHideFlags: 0
@@ -601,12 +601,15 @@ MonoBehaviour:
   quizScene: {fileID: 1785908560}
   flappyBirdScene: {fileID: 2061730262}
   bossFightingScene: {fileID: 389718053}
+  instructionScene: {fileID: 0}
   firstSceneNextButton: {fileID: 484836953}
   quizSceneNextButton: {fileID: 1224192590}
   quizSceneBackButton: {fileID: 308088007}
   flappyBirdSceneNextButton: {fileID: 1517389336}
   flappyBirdSceneBackButton: {fileID: 220729695}
   bossFightingSceneBackButton: {fileID: 1409905323}
+  instructionSceneNextButton: {fileID: 0}
+  firstSceneBackButton: {fileID: 0}
 --- !u!114 &239663063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1240,9 +1243,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 239663062}
+      - m_Target: {fileID: 1907450616}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: MoveToQuizScene
+        m_MethodName: MoveBackToFirstSceneFromInstruction
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1980,7 +1983,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1907450616}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: MoveToQuizScene
+        m_MethodName: MoveToInstructionScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3524,7 +3527,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1907450613
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3600,12 +3603,15 @@ MonoBehaviour:
   quizScene: {fileID: 1785908560}
   flappyBirdScene: {fileID: 2061730262}
   bossFightingScene: {fileID: 389718053}
+  instructionScene: {fileID: 239663060}
   firstSceneNextButton: {fileID: 1090606018}
   quizSceneNextButton: {fileID: 1224192590}
   quizSceneBackButton: {fileID: 308088007}
   flappyBirdSceneNextButton: {fileID: 1517389336}
   flappyBirdSceneBackButton: {fileID: 220729695}
   bossFightingSceneBackButton: {fileID: 1409905323}
+  instructionSceneNextButton: {fileID: 957532199}
+  firstSceneBackButton: {fileID: 484836953}
 --- !u!1 &1916556308
 GameObject:
   m_ObjectHideFlags: 0

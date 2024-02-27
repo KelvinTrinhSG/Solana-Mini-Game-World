@@ -47,10 +47,10 @@ public class GameManagerBird : MonoBehaviour
         gameOver.SetActive(true);
         playButton.SetActive(true);
         ToMainGameButton.SetActive(true);
-        if (score >= 1)//100
+        if (score >= 10)//100
         {
-             StaticData.valueToKeepBird = "Correct";
-             SceneManager.LoadScene(2);
+            StaticData.valueToKeepBird = "Correct";
+            SceneManager.LoadScene(2);
         }
         Pause();
     }

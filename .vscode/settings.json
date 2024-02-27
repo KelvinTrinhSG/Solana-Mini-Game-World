@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Donkey Kong 2 - Solana.sln"
+    "dotnet.defaultSolution": "Solana-Mini-Game-World.sln"
 }

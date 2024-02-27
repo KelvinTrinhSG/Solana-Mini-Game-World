@@ -907,80 +907,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Questions: "Ai l\xE0 ng\u01B0\u1EDDi s\xE1ng l\u1EADp Solana?"
+  - Questions: What is the primary focus of Metaplex Studios and its ecosystem?
     Answers:
-    - Vitalik Buterin
-    - Dan Larimer
-    - Anatoly Yakovenko
-    - Charles Hoskinson
+    - Supporting developer teams exclusively
+    - Launching NFT projects on Ethereum
+    - Facilitating the creation and sale of digital assets
+    - Managing physical assets for brands and creators
     CorrectAnswer: 3
-  - Questions: "Solana gi\u1EA3i quy\u1EBFt v\u1EA5n \u0111\u1EC1 n\xE0o c\u1EE7a
-      blockchain?"
+  - Questions: Which blockchain is the Metaplex Protocol built on?
     Answers:
-    - Scalability
-    - Security
-    - Interoperability
-    - Privacy
-    CorrectAnswer: 1
-  - Questions: "C\xF4ng ngh\u1EC7 n\xE0o Solana s\u1EED d\u1EE5ng \u0111\u1EC3 t\u0103ng
-      c\u01B0\u1EDDng scalability?"
-    Answers:
-    - Proof of Work (PoW)
-    - Delegated Proof of Stake (DPoS)
-    - Proof of Authority (PoA)
-    - Proof of History (PoH)
-    CorrectAnswer: 4
-  - Questions: "Th\u1EDDi gian x\xE1c nh\u1EADn giao d\u1ECBch tr\xEAn Solana l\xE0
-      bao l\xE2u?"
-    Answers:
-    - "1 ph\xFAt"
-    - "10 ph\xFAt"
-    - "1 gi\xE2y"
-    - "1 ng\xE0y"
+    - Bitcoin
+    - Ethereum
+    - Solana
+    - Cardano
     CorrectAnswer: 3
-  - Questions: "API Solana n\u1EB1m \u1EDF \u0111\xE2u?"
+  - Questions: What is one feature of Solana that contributes to its reputation for
+      launching NFTs?
     Answers:
-    - Solana Explorer
-    - Solana Docs
-    - Solana Hub
-    - Solana Market
+    - Proof of Stake
+    - Proof of Authority
+    - Proof of History
+    - Proof of Burn
+    CorrectAnswer: 3
+  - Questions: "What is the purpose of Metaplex's Candy Machine v3\u2122?"
+    Answers:
+    - Selling physical products
+    - Minting and selling NFTs
+    - Distributing candy online
+    - Creating decentralized exchanges
     CorrectAnswer: 2
-  - Questions: "Ng\xF4n ng\u1EEF l\u1EADp tr\xECnh ph\u1ED5 bi\u1EBFn nh\u1EA5t \u0111\u1EC3
-      ph\xE1t tri\u1EC3n tr\xEAn Solana l\xE0 g\xEC?"
+  - Questions: Which of the following is NOT a major project of Metaplex?
     Answers:
-    - Python
-    - JavaScript
-    - Solidity
-    - Rust
+    - Token Metadata
+    - "Candy Machine v3\u2122"
+    - Decentralized marketplace for physical goods
+    - Auction House
+    CorrectAnswer: 3
+  - Questions: How many NFTs have been minted through the Metaplex ecosystem in its
+      first year?
+    Answers:
+    - 1 million
+    - 5 million
+    - 15 million
+    - 50 million
+    CorrectAnswer: 3
+  - Questions: What is the total value generated for creators across primary and
+      secondary sales within the Metaplex ecosystem?
+    Answers:
+    - $300,000
+    - $3 million
+    - $300 million
+    - $3 billion
     CorrectAnswer: 4
-  - Questions: "C\xF4ng c\u1EE5 n\xE0o gi\xFAp t\u1EA1o v\xE0 tri\u1EC3n khai c\xE1c
-      h\u1EE3p \u0111\u1ED3ng th\xF4ng minh tr\xEAn Solana?"
+  - Questions: What does Metaplex aim to achieve by providing tools and standards
+      for NFT projects?
     Answers:
-    - Solana Studio
-    - Solana Playground
-    - Solana Deployer
-    - Solana Builder
-    CorrectAnswer: 4
-  - Questions: "Serum l\xE0 g\xEC trong h\u1EC7 sinh th\xE1i Solana?"
+    - Centralization of digital assets
+    - Limiting access to digital commerce
+    - Democratizing access to digital commerce
+    - Exclusivity for large brands only
+    CorrectAnswer: 3
+  - Questions: How does Metaplex plan to make the process of creating and launching
+      NFTs easier?
     Answers:
-    - "N\u1EC1n t\u1EA3ng giao d\u1ECBch phi t\u1EADp trung"
-    - "V\xED ti\u1EC1n \u0111i\u1EC7n t\u1EED"
-    - "Tr\xECnh duy\u1EC7t web"
-    - "M\u1EA1ng x\xE3 h\u1ED9i"
-    CorrectAnswer: 1
-  - Questions: "B\u1EA3ng x\u1EBFp h\u1EA1ng Solana \u0111\xE1nh gi\xE1 g\xEC?"
+    - By increasing technical requirements
+    - By providing minimal support for creators
+    - By offering tools, smart contracts, and more
+    - By limiting the types of NFT projects allowed
+    CorrectAnswer: 3
+  - Questions: What are the three major projects currently undertaken by Metaplex?
     Answers:
-    - "T\u1ED1c \u0111\u1ED9 giao d\u1ECBch"
-    - "Kh\u1EA3 n\u0103ng m\u1EDF r\u1ED9ng"
-    - "Hi\u1EC7u su\u1EA5t h\u1EE3p \u0111\u1ED3ng th\xF4ng minh"
-    - "S\u1EF1 ph\u1ED5 bi\u1EBFn c\u1EE7a \u1EE9ng d\u1EE5ng"
-    CorrectAnswer: 2
-  - Questions: "SOL l\xE0 g\xEC trong h\u1EC7 sinh th\xE1i Solana?"
-    Answers:
-    - Stablecoin
-    - "Token ch\xEDnh c\u1EE7a Solana"
-    - "\u0110\u01A1n v\u1ECB ti\u1EC1n t\u1EC7"
-    - DAO Token
+    - Digital Art, Gaming, and Music
+    - "Token Standardization, Candy Machine v3\u2122, and Auction House"
+    - ' Virtual Reality, Augmented Reality, and Blockchain'
+    - Social Media, E-commerce, and Cloud Computing
     CorrectAnswer: 2
   options:
   - {fileID: 696987510}
